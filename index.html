@@ -1,0 +1,344 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, viewport-fit=cover">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+
+	<!-- Page Title -->
+  <title>Nosso Luau</title>
+  <link rel="shortcut icon" href="assets/img/favicon.jpg" />
+
+	<!-- Compressed Styles -->
+  <link href="css/slides.min.css?41331" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- Custom Styles -->
+	<!-- <link href="css/custom.css" rel="stylesheet" type="text/css"> -->
+
+	<!-- jQuery 3.3.1 -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Compressed Scripts -->
+	<script src="js/slides.min.js?41331" type="text/javascript"></script>
+
+	<!-- Custom Scripts -->
+	<!-- <script src="js/custom.js" type="text/javascript"></script> -->
+
+	<!-- Fonts and Material Icons -->
+	<link rel="stylesheet" as="font" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,600,700|Material+Icons"/>
+ 
+</head>
+<body class="slides chain simplifiedMobile animated">
+		
+<!-- SVG Library -->
+<svg xmlns="" style="display:none">
+
+  <symbol id="play" viewBox="0 0 30 30"><path d="M7 30v-30l22 15z"/></symbol>
+
+  <!-- social -->
+
+  <symbol id="facebook" viewBox="0 0 24 24"><path d="M24 1.3v21.3c0 .7-.6 1.3-1.3 1.3h-6.1v-9.3h3.1l.5-3.6h-3.6v-2.2c0-1.1.3-1.8 1.8-1.8h1.9v-3.2c-.3 0-1.5-.1-2.8-.1-2.8 0-4.7 1.7-4.7 4.8v2.7h-3.1v3.6h3.1v9.2h-11.5c-.7 0-1.3-.6-1.3-1.3v-21.4c0-.7.6-1.3 1.3-1.3h21.3c.8 0 1.4.6 1.4 1.3z"/></symbol>
+
+  <symbol id="facebook2" viewBox="0 0 512 512"><path d="M288 176v-64c0-17.664 14.336-32 32-32h32v-80h-64c-53.024 0-96 42.976-96 96v80h-64v80h64v256h96v-256h64l32-80h-96z"/></symbol>
+   
+  <symbol id="fb-like" viewBox="0 0 20 20"><path d="M0 8v12h5v-12h-5zm2.5 10.8c-.4 0-.8-.3-.8-.8 0-.4.3-.8.8-.8s.8.3.8.8c0 .4-.4.8-.8.8zm3.5-.8h9.5c1.1 0 1.7-1 1.7-1.7 0-.3-.4-1-.4-1 1.4-.3 1.7-1.2 1.7-1.7-.1-.5-.3-.9-.5-1 1-.4 1.5-1.1 1.4-1.9-.1-.8-1-1.5-1-1.5 1-.6.9-1.5.9-1.5-.3-1.3-1.5-1.7-1.7-1.7h-5.6s.3-.5.3-2.4-1.3-3.6-2.6-3.6c0 0-.7.1-1 .3v3.5l-2.7 4.4v9.8z"/></symbol>
+  
+  <symbol id="instagram" viewBox="0 0 20 20"><circle cx="10" cy="10" r="3.3"/><path d="M13,0H7C2.2,0,0,2.2,0,7v6c0,4.8,2.1,7,7,7h6c4.8,0,7-2.2,7-7V7C20,2.2,17.9,0,13,0z M10,15.1c-2.8,0-5.1-2.3-5.1-5.1 S7.2,4.9,10,4.9s5.1,2.3,5.1,5.1S12.8,15.1,10,15.1z M15.3,5.9c-0.7,0-1.2-0.5-1.2-1.2c0-0.7,0.5-1.2,1.2-1.2s1.2,0.5,1.2,1.2 C16.5,5.3,16,5.9,15.3,5.9z"/></symbol>
+
+  <symbol id="twitter" viewBox="0 1 24 23"><path d="M21.5 7.6v.6c0 6.6-5 14.1-14 14.1-2.8 0-5.4-.8-7.6-2.2l1.2.1c2.3 0 4.4-.8 6.1-2.1-2.2 0-4-1.5-4.6-3.4.3.1.6.1.9.1.5 0 .9-.1 1.3-.2-2.1-.6-3.8-2.6-3.8-5 .7.4 1.4.6 2.2.6-1.3-.9-2.2-2.4-2.2-4.1 0-.9.2-1.8.7-2.5 2.4 3 6.1 5 10.2 5.2-.1-.4-.1-.7-.1-1.1 0-2.7 2.2-5 4.9-5 1.4 0 2.7.6 3.6 1.6 1-.3 2.1-.7 3-1.3-.4 1.2-1.1 2.1-2.2 2.7 1-.1 1.9-.4 2.8-.8-.6 1.1-1.4 2-2.4 2.7z"/></symbol>
+
+  <symbol id="spotify" viewBox="0 0 335 335"><path d="M0 167C0 259 75.7738 335 167.5 335C259.226 335 335 259 335 167C335 75 259.226 0 167.5 0C75.7738 0 0 75 0 167ZM229.315 245C190.432 221 140.58 215 82.753 228C68.7946 230 66.8006 210 78.7649 208C142.574 193 196.414 200 240.283 227C251.25 234 240.283 251 229.315 245ZM246.265 200C201.399 172 132.604 164 79.7619 180C62.8125 185 56.8304 159 72.7827 155C133.601 137 208.378 146 260.223 178C274.182 187 260.223 209 246.265 200ZM71.7857 129C54.8363 135 43.869 106 62.8125 99C121.637 81 221.339 84 283.155 121C300.104 130 284.152 158 266.205 148C212.366 116 122.634 113 71.7857 129Z" /></symbol>
+      
+  <symbol id="youtube" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></symbol>
+
+  </svg>
+
+<!-- Navigation -->
+<nav class="side pole">
+  <div class="navigation">
+    <ul></ul>
+  </div>
+</nav>
+
+<!-- Panel Top #08 -->
+<nav class="panel top">
+  <div class="sections desktop">
+    <div class="left">
+      <a href="#" style="width:82px;height:24px" title="Slides Framework"><b>Nosso Luau</b></a>
+    </div>
+    
+    <div class="center">
+      <ul class="menu uppercase">
+        <li><a href="#about">O luau</a></li>
+        <li><a href="#members">Integrantes</a></li>
+        <li><a href="#">Galeria</a></li>
+        <li><a href="#">Músicas</a></li>
+        <li><a href="#">Contato</a></li>
+        <li><a href="#">Parceiros</a></li>
+      </ul>
+    </div>
+    <div class="right">
+      <ul class="menu trim">
+        <!-- 
+        <li><a href="http://facebook.com/" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
+        <li><a href="http://twitter.com/" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
+        -->
+        <li><a href="https://www.youtube.com/" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#youtube"></use></svg></a></li>
+        <li><a href="https://www.spotify.com/" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#spotify"></use></svg></a></li>
+        <li class="cropRight"><a href="http://instagram.com/nossoluau_" class="trimRight" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use></svg></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="sections compact hidden">
+    <div class="left"><a href="https://designmodo.com/?u=3165" title="Slides Framework"><svg style="width:82px;height:24px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a></div>
+    <div class="right"><span class="button actionButton sidebarTrigger" data-sidebar-id="1"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu"></use></svg></span></div>
+  </div>
+</nav>
+
+<!-- Slide 1 (#09) -->
+<section class="slide fade-6 kenBurns">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+        <div class="fix-12-12">
+          <div class="fix-3-12">
+            <h1 height="77" class="wide ae-1 fromCenter"> <b>Nosso Luau</b> </use></h1>
+          </div>
+          <div class="button play small white popupTrigger ae-2 fromCenter margin-top-6 margin-bottom-6" data-popup-id="9">
+            <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#play"></use></svg>
+          </div>
+          <p class="ae-3"><span class="opacity-8">Nós somos o <b>LUAU!</b></span></p>
+          <form class="slides-form" action="#">
+            <button type="submit" class="button blue gradient ae-7 fromCenter" name="button">Seja o luau</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="background" style="background-image:url(assets/img/background/img-02.jpeg)"></div>
+</section>
+
+<!-- Popup Video -->
+<div class="popup autoplay" data-popup-id="9">
+  <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+        <div class="fix-10-12">
+          <div class="embedVideo popupContent">
+            <iframe src="https://www.youtube.com/embed/g8yBqxTiHSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Slide 2 - Sobre -->
+<section id="about" class="slide fade-6 kenBurns fromLeft">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+      
+        <div class="fix-12-12">
+          <div class="fix-7-12 left toRight">
+            <h1 class="ae-1">O nosso Luau</h1>
+            <p class="ae-2"><span class="opacity-8">
+              O <b>nosso luau</b> é um formato de show que conversa com o púbico, <br>aproximando o máximo da conexão com as pessoas.
+            </span></p>
+            <a class="button blue gradient crop ae-3">Conheça-nos</a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="background" style="background-image:url(assets/img/background/img-04.jpeg)"></div>
+</section>
+
+<!-- Slide 3 - Integrantes -->
+<section id="members" class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+        
+          <div class="fix-7-12">
+            <h1 class="ae-1">Integrantes</h1>
+            <ul class="grid grid-85 equal margin-top-5 ae-2 fromCenter" data-equal-collapse-width="767">
+              <li class="col-6-12 col-tablet-1-2 col-phablet-1-1 margin-bottom-2 ae-3">
+                <div class="">
+                  <h3>Renan Mota</h3>
+                  <div class="price ae-5">
+                    <img src="assets/img/img-renan.jpeg" data-action="zoom" class="shadow rounded ae-8" alt="Image"/>
+                  </div>
+                  <div class="ae-5 pad">
+                    <h6 class="uppercase bold small opacity-8">"Frase pessoal de Renan Mota Aqui"</h6>
+                  </div>
+                  <div class="margin-top-3 margin-bottom-3 equalElement ae-6">
+                    <ul class="p tiny">
+                      <li><strong>Idade Aqui</strong></li>
+                      <li class="opacity-8">Nacionalidade/Cidade</li>
+                      <li class="opacity-8">Outra coisa Relevante</li>
+                      <li class="">
+                        <a href="https://www.instagram.com/renanmotag/" target="_blank"><i class="fa fa-instagram" style="font-size:24px"></i></a>
+                        <a href="https://www.instagram.com/renanmotag/" target="_blank"><i class="fa fa-facebook" style="font-size:24px"></i></a>
+                        <a href="https://www.instagram.com/renanmotag/" target="_blank"><i class="fa fa-twitter" style="font-size:24px"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+
+              <li class="col-6-12 col-tablet-1-2 col-phablet-1-1 ae-4">
+                <div class="">
+                  <h3>Daniel Levi</h3>
+                  <div class="price ae-6">
+                    <img src="assets/img/img-levi.jpeg" data-action="zoom" class="shadow rounded ae-8" alt="Image"/>
+                  </div>
+                  <div class="ae-6 pad">
+                    <h6 class="uppercase bold small opacity-8">"Frase pessoal de Daniel Levi Aqui"</h6>
+                  </div>
+                  <div class="margin-top-3 margin-bottom-3 equalElement ae-7">
+                    <ul class="p tiny">
+                      <li><strong>Idade Aqui</strong></li>
+                      <li class="opacity-8">Nacionalidade/Cidade</li>
+                      <li class="opacity-8">Outra coisa Relevante</li>
+                      <li class="">
+                        <a href="https://www.instagram.com/daniellfleite/" target="_blank"><i class="fa fa-instagram" style="font-size:24px"></i></a>
+                        <a href="https://www.instagram.com/daniellfleite/" target="_blank"><i class="fa fa-facebook" style="font-size:24px"></i></a>
+                        <a href="https://www.instagram.com/daniellfleite/" target="_blank"><i class="fa fa-twitter" style="font-size:24px"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div> 
+          
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-85.jpg)"></div>
+  </section>
+
+<!-- Slide 4 (#14) -->
+<section class="slide fade-6 kenBurns fromRight">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+      
+        <div class="fix-12-12">
+          <div class="fix-6-12 left toLeft">
+            <h1 class="ae-1">Designers are meant to be loved, not to be understood.</h1>
+            <p class="ae-2"><span class="opacity-8">You must forget all your theories, all your ideas before the subject. What part of these is really your own will be expressed in your&nbsp;expression.</span></p>
+            <a class="button blue gradient crop ae-3">Get Started</a>
+          </div>
+        </div>
+            
+      </div>  
+    </div>
+  </div>
+  <div class="background" style="background-image:url(assets/img/background/img-14.jpg)"></div>
+</section>
+
+<!-- Slide 5 (#89) -->
+<section class="slide fade-6 kenBurns">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+
+        <div class="fix-12-12">
+          <ul class="flex left">
+            <li class="col-6-12 fromBottomLeft">
+              <p class="opacity-6 margin-bottom-2 ae-1">Case study</p>
+              <h1 class="ae-2">The Secret of Success</h1>
+              <div class="ae-3"><p class="opacity-8">No matter how many times your amazing, absolutely brilliant work is rejected by the client, for whatever dopey, arbitrary reason, there is often another amazing, absolutely brilliant solution possible.</p></div>
+              <ul class="flex">
+                <li class="col-6-12 ae-3">
+                  <h3 class="margin-top-3">Camera</h3>
+                  <p class="tiny opacity-6">Scan entire conversations in a chat-like view.</p>
+                </li>
+                <li class="col-6-12 ae-4">
+                  <h3 class="margin-top-3">Messages</h3>
+                  <p class="tiny opacity-6">Quickly swipe messages to your archive or trash.</p>
+                </li>
+                <li class="col-6-12 ae-5">
+                  <h3 class="margin-top-3">Music Center</h3>
+                  <p class="tiny opacity-6">Unforgettable feelings through a quality music.</p>
+                </li>
+                <li class="col-6-12 ae-6">
+                  <h3 class="margin-top-3">Channels</h3>
+                  <p class="tiny opacity-6">Read reviews, compare customer ratings.</p>
+                </li>
+              </ul>
+            </li>
+            <li class="col-1-12">&nbsp;</li>
+            <li class="col-5-12 bottom">
+              <div class="videoThumbnail shadow rounded popupTrigger margin-bottom-3 ae-7" data-popup-id="89-3">
+                <img src="assets/img/image-89-1.jpg" class="wide" alt="Video Thumbnail"/>
+              </div>
+              <img src="assets/img/image-89-2.jpg" data-action="zoom" class="shadow rounded ae-8" alt="Image"/>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="background" style="background-image:url(assets/img/background/img-89.jpg)"></div>
+</section>
+
+<!-- Popup Video -->
+<div class="popup autoplay" data-popup-id="89-3">
+  <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+        <div class="fix-10-12">
+          <div class="embedVideo popupContent">
+            <iframe src="https://www.youtube.com/embed/g8yBqxTiHSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Slide 6 (#95) -->
+<section class="slide fade-6 kenBurns">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+      
+        <div class="fix-6-12">
+          <h1 class="huge ae-1 margin-bottom-2">Download Mobile App</h1>
+          <p class="hero ae-2 margin-bottom-3"><span class="opacity-8">Learning never exhausts the mind.</span></p>
+
+          <form action="#" autocomplete="off" class="slides-form margin-bottom-3">
+            <input type="email" class="ae-3" name="email" placeholder="E-mail address"/>
+            <button type="submit" class="button blue gradient ae-4" name="submit">Try it free</button>
+          </form>
+
+          <a href="#" class="button hollow ae-5"><img src="assets/img/appstore.jpg" height="63"/></a><a href="#" class="button hollow ae-6"><img src="assets/img/googleplay.jpg" height="63"/></a>
+        </div>
+                
+      </div>
+    </div>
+  </div>
+  <div class="background" style="background-image:url(assets/img/background/img-95.jpg)"></div>
+</section>
+
+<!-- Panel Bottom #15 -->
+<nav class="panel bottom lastSlideOnly">
+  <div class="sections">
+    <div class="center"><a href="#" class="opacity-8">Available <svg style="height:21px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#apple"></use></svg> iPhone</a></div>
+  </div>
+</nav>
+
+<!-- Loading Progress Bar -->
+<div class="progress-bar orange"></div>
+		
+</body>
+</html>
