@@ -2702,6 +2702,7 @@ html.mobile .showForMobileInline {
 }
 .sidebar .social {
   margin-top: 40px;
+  color: #fff
 }
 .sidebar .social li {
   display: inline-block;
